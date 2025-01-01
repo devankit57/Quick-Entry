@@ -1,13 +1,11 @@
+// pages/_document.js or pages/_document.tsx
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 
 class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head>
-          {/* Favicon link */}
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
+        <Head />
         <body>
           <Main />
           <NextScript />
